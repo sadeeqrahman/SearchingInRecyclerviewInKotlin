@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SearchingInRecyclerviewInKotlin</string>
+    <string name="search_here">Search User by Name or Age</string>
+</resources>

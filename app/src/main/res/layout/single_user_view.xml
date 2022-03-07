@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:padding="10dp" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:textSize="14dp"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Sadeeq Rahman"
+               />
+
+
+        <TextView
+                android:textSize="14dp"
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Sadeeq Rahman"
+              />
+
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_height=".5dp"
+          android:background="@color/black"/>
+
+</LinearLayout>
